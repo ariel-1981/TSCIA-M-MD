@@ -5,7 +5,7 @@ Este repositorio contiene los trabajos prácticos desarrollados para la materia 
 
 ---
 
-## 📋 Contenido
+## Contenido
 
 ### Trabajo Práctico 1: Manipulación de Archivos (CSV - JSON - Excel)
 
@@ -48,6 +48,6 @@ Dashboard interactivo desarrollado con Streamlit para analizar el rendimiento de
 - Análisis comparativo de ejercicios
 - Seguimiento de progreso temporal
 
-**🔗 Demo en vivo:** [https://dashboard-gimnasio.streamlit.app/](https://dashboard-gimnasio.streamlit.app/)
+** Demo en vivo:** [https://dashboard-gimnasio.streamlit.app/](https://dashboard-gimnasio.streamlit.app/)
 
 **Tecnologías:** Python, Streamlit, Pandas, Plotly
