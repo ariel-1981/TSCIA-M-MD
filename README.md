@@ -12,3 +12,5 @@ Trabajos realizados para la materia Modelizado de Mineria de Datos
 
 # Trabajo Practico 4: Dashboard de Rendimiento de Entrenamiento
 ### En este trabajo utilizamos un dataset de un gimnasio para estudiar el rendimiento y los ejercicios de los Socios.
+
+  https://dashboard-gimnasio.streamlit.app/
