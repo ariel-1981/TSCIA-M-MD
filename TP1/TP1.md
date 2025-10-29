@@ -1,121 +1,145 @@
-import pandas as pd
-import os
+# 📊 Editor de Archivos CSV
 
-# --- 1️⃣ Leer el archivo CSV ---
-nombre_archivo = input("📄 Ingresá el nombre del archivo CSV (ejemplo: datos.csv): ")
+Script interactivo en Python para leer, modificar y exportar archivos CSV en múltiples formatos.
 
-if not os.path.exists(nombre_archivo):
-    print(f"❌ No se encontró el archivo '{nombre_archivo}' en la carpeta actual.")
-    print("📁 Archivos disponibles en la carpeta:")
-    print(os.listdir())
-    exit()
+## 📋 Descripción
 
-df = pd.read_csv(nombre_archivo)
-print("\n✅ Archivo leído correctamente.\n")
-print("Vista previa del DataFrame:")
-print(df.head())
+Esta herramienta te permite cargar un archivo CSV, realizar modificaciones (agregar, eliminar o modificar filas y columnas) y exportar los resultados en tres formatos diferentes: CSV, JSON o Excel.
 
-# --- 2️⃣ Funciones de modificación ---
-def agregar_fila(df):
-    """Agrega una fila pidiendo al usuario los valores."""
-    print("\n👉 Ingresá los valores para una nueva fila:")
-    nueva_fila = {}
-    for col in df.columns:
-        valor = input(f"{col}: ")
-        nueva_fila[col] = valor
-    df.loc[len(df)] = nueva_fila
-    print("\n✅ Fila agregada correctamente.\n")
-    return df
+## ✨ Características
 
-def eliminar_fila(df):
-    """Elimina una fila por índice."""
-    print("\n📋 Índices actuales del DataFrame:")
-    print(df.index.tolist())
-    try:
-        indice = int(input("🗑️ Ingresá el índice de la fila que querés eliminar: "))
-        if indice in df.index:
-            df = df.drop(indice).reset_index(drop=True)
-            print("\n✅ Fila eliminada correctamente.\n")
-        else:
-            print("❌ Índice no encontrado.")
-    except ValueError:
-        print("❌ Debes ingresar un número válido.")
-    return df
+- ✅ Lectura de archivos CSV
+- ➕ Agregar nuevas filas con valores personalizados
+- 🗑️ Eliminar filas por índice
+- ✏️ Modificar valores de filas existentes
+- 📊 Agregar columnas de ejemplo
+- 👀 Visualizar el DataFrame en cualquier momento
+- 💾 Exportar en tres formatos:
+  - CSV (`.csv`)
+  - JSON (`.json`)
+  - Excel (`.xlsx`)
 
-def modificar_fila(df):
-    """Permite modificar los valores de una fila existente."""
-    print("\n📋 Índices actuales del DataFrame:")
-    print(df.index.tolist())
-    try:
-        indice = int(input("✏️ Ingresá el índice de la fila que querés modificar: "))
-        if indice not in df.index:
-            print("❌ Índice no encontrado.")
-            return df
-        
-        print("\nFila actual:")
-        print(df.loc[indice])
-        print("\n👉 Ingresá los nuevos valores (dejá vacío para mantener el actual):")
-        for col in df.columns:
-            valor_actual = df.at[indice, col]
-            nuevo_valor = input(f"{col} (actual: {valor_actual}): ")
-            if nuevo_valor.strip() != "":
-                df.at[indice, col] = nuevo_valor
-        print("\n✅ Fila modificada correctamente.\n")
-    except ValueError:
-        print("❌ Debes ingresar un número válido.")
-    return df
+## 🔧 Requisitos
 
-def mostrar_menu_modificacion(df):
-    """Menú interactivo para modificar el DataFrame."""
-    while True:
-        print("\n🔧 Menú de modificaciones:")
-        print("1 - Agregar una fila")
-        print("2 - Eliminar una fila")
-        print("3 - Modificar una fila existente")
-        print("4 - Agregar columna de ejemplo")
-        print("5 - Ver DataFrame")
-        print("0 - Terminar modificaciones")
-        
-        opcion = input("Elegí una opción: ")
-        
-        if opcion == "1":
-            df = agregar_fila(df)
-        elif opcion == "2":
-            df = eliminar_fila(df)
-        elif opcion == "3":
-            df = modificar_fila(df)
-        elif opcion == "4":
-            df["Nueva_Columna"] = range(1, len(df) + 1)
-            print("✅ Columna 'Nueva_Columna' agregada.")
-        elif opcion == "5":
-            print(df)
-        elif opcion == "0":
-            break
-        else:
-            print("❌ Opción inválida.")
-    return df
+### Librerías necesarias
 
-# --- 3️⃣ Ejecutar modificaciones ---
-df = mostrar_menu_modificacion(df)
+```bash
+pip install pandas openpyxl
+```
 
-# --- 4️⃣ Elegir formato de salida ---
-print("\n¿En qué formato querés guardar el archivo modificado?")
-print("1 - CSV")
-print("2 - JSON")
-print("3 - Excel")
-opcion = input("Elegí una opción (1, 2 o 3): ")
+- **pandas**: Para manipulación de datos
+- **openpyxl**: Para exportación a Excel
 
-if opcion == "1":
-    salida = "archivo_modificado.csv"
-    df.to_csv(salida, index=False)
-    print(f"✅ Archivo guardado como CSV: '{salida}'")
-elif opcion == "2":
-    salida = "archivo_modificado.json"
-    df.to_json(salida, orient="records", indent=4)
-    print(f"✅ Archivo guardado como JSON: '{salida}'")
-elif opcion == "3":
-    salida = "archivo_modificado.xlsx"
-    df.to_excel(salida, index=False, engine='openpyxl')
-    print(f"✅ Archivo guardado como Excel: '{salida}'")
-else:
-    print("❌ Opción no válida. No se guardó el archivo.")
+## 🚀 Uso
+
+### 1. Ejecutar el script
+
+```bash
+python editor_csv.py
+```
+
+### 2. Ingresar el nombre del archivo
+
+El script te pedirá el nombre del archivo CSV a cargar:
+
+```
+📄 Ingresá el nombre del archivo CSV (ejemplo: datos.csv): 
+```
+
+Si el archivo no existe, se mostrará una lista de archivos disponibles en el directorio actual.
+
+### 3. Menú de modificaciones
+
+Una vez cargado el archivo, aparecerá un menú interactivo:
+
+```
+🔧 Menú de modificaciones:
+1 - Agregar una fila
+2 - Eliminar una fila
+3 - Modificar una fila existente
+4 - Agregar columna de ejemplo
+5 - Ver DataFrame
+0 - Terminar modificaciones
+```
+
+#### Opciones del menú:
+
+- **Opción 1**: Agrega una nueva fila solicitando valores para cada columna
+- **Opción 2**: Elimina una fila especificando su índice
+- **Opción 3**: Modifica valores de una fila existente (dejá vacío para mantener el valor actual)
+- **Opción 4**: Agrega una columna numérica de ejemplo llamada "Nueva_Columna"
+- **Opción 5**: Muestra el DataFrame completo en consola
+- **Opción 0**: Finaliza las modificaciones y continúa con la exportación
+
+### 4. Exportar el archivo
+
+Después de terminar las modificaciones, elegí el formato de salida:
+
+```
+¿En qué formato querés guardar el archivo modificado?
+1 - CSV
+2 - JSON
+3 - Excel
+Elegí una opción (1, 2 o 3):
+```
+
+Los archivos se guardan con los siguientes nombres:
+- CSV: `archivo_modificado.csv`
+- JSON: `archivo_modificado.json`
+- Excel: `archivo_modificado.xlsx`
+
+## 📝 Ejemplo de uso
+
+```
+📄 Ingresá el nombre del archivo CSV (ejemplo: datos.csv): ventas.csv
+
+✅ Archivo leído correctamente.
+
+Vista previa del DataFrame:
+   Producto  Precio  Cantidad
+0  Laptop    1500    5
+1  Mouse     25      20
+2  Teclado   80      15
+
+🔧 Menú de modificaciones:
+1 - Agregar una fila
+...
+Elegí una opción: 1
+
+👉 Ingresá los valores para una nueva fila:
+Producto: Monitor
+Precio: 300
+Cantidad: 10
+
+✅ Fila agregada correctamente.
+
+Elegí una opción: 0
+
+¿En qué formato querés guardar el archivo modificado?
+1 - CSV
+2 - JSON
+3 - Excel
+Elegí una opción (1, 2 o 3): 3
+
+✅ Archivo guardado como Excel: 'archivo_modificado.xlsx'
+```
+
+## 🛠️ Estructura del código
+
+El script está organizado en las siguientes secciones:
+
+1. **Lectura del archivo**: Carga el CSV y muestra una vista previa
+2. **Funciones de modificación**:
+   - `agregar_fila(df)`: Agrega una nueva fila
+   - `eliminar_fila(df)`: Elimina una fila por índice
+   - `modificar_fila(df)`: Modifica valores de una fila existente
+   - `mostrar_menu_modificacion(df)`: Menú interactivo principal
+3. **Exportación**: Guarda el DataFrame en el formato seleccionado
+
+## ⚠️ Notas importantes
+
+- El archivo CSV debe estar en el mismo directorio que el script, o especificá la ruta completa
+- Los índices de las filas comienzan en 0
+- Al modificar una fila, podés dejar campos vacíos para mantener el valor actual
+- El archivo Excel se guarda en formato `.xlsx` (Excel 2007+)
+- Si el archivo de salida ya existe, será sobrescrito
