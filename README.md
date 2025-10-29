@@ -1,24 +1,53 @@
 # TSCIA-M-MD
-## Trabajos realizados para la materia Modelizado de Mineria de Datos
+## Trabajos Prácticos - Modelizado de Minería de Datos
+
+Este repositorio contiene los trabajos prácticos desarrollados para la materia **Modelizado de Minería de Datos**.
 
 ---
 
-# Trabajo Practico 1: CSV - Json - Excel
-### En este trabajo, se trabajan archivos excel, CRUD y exportacion en distintos formatos
+## 📋 Contenido
+
+### Trabajo Práctico 1: Manipulación de Archivos (CSV - JSON - Excel)
+
+En este trabajo se implementan operaciones CRUD (Create, Read, Update, Delete) sobre archivos en diferentes formatos, incluyendo:
+- Lectura y escritura de archivos Excel
+- Conversión entre formatos (CSV, JSON, Excel)
+- Exportación de datos procesados
+
+**Tecnologías:** Python, Pandas, openpyxl
 
 ---
 
-# Trabajo Practico 2: Analisis de Recompra
-### En el siguiente trabajo, se analiza una base de datos relaciona, en la que analizamos las variables para ver si hay relacion, entre las promociones y las recompras en los clientes, tambien usamos inteligencia artificial para mostrar resultados y graficos.
+### Trabajo Práctico 2: Análisis de Recompra de Clientes
+
+Análisis exploratorio sobre una base de datos relacional para identificar patrones de comportamiento en clientes. El trabajo incluye:
+- Análisis de correlación entre promociones y recompras
+- Visualización de resultados mediante gráficos estadísticos
+- Implementación de modelos de inteligencia artificial para predicción de comportamiento
+
+**Tecnologías:** Python, Pandas, Matplotlib/Seaborn, Scikit-learn
 
 ---
 
-# Trabajo Practico 3: Google Colab
-### En este trabajo usamos Google Colab para Hacer una limpieza de datos y analizar un Dataframe de informacion demografica y economica de continentes y sus paises.
+### Trabajo Práctico 3: Limpieza y Análisis de Datos en Google Colab
+
+Procesamiento y análisis de un dataset con información demográfica y económica de continentes y países. Incluye:
+- Limpieza y preprocesamiento de datos
+- Análisis exploratorio de variables demográficas y económicas
+- Visualización de tendencias y patrones por región
+
+**Plataforma:** Google Colab  
+**Tecnologías:** Python, Pandas, NumPy
 
 ---
 
-# Trabajo Practico 4: Dashboard de Rendimiento de Entrenamiento
-### En este trabajo utilizamos un dataset de un gimnasio para estudiar el rendimiento y los ejercicios de los Socios.
+### Trabajo Práctico 4: Dashboard de Rendimiento de Entrenamiento
 
-  https://dashboard-gimnasio.streamlit.app/
+Dashboard interactivo desarrollado con Streamlit para analizar el rendimiento de socios de un gimnasio. Permite:
+- Visualización de métricas de rendimiento individual
+- Análisis comparativo de ejercicios
+- Seguimiento de progreso temporal
+
+**🔗 Demo en vivo:** [https://dashboard-gimnasio.streamlit.app/](https://dashboard-gimnasio.streamlit.app/)
+
+**Tecnologías:** Python, Streamlit, Pandas, Plotly
