@@ -7,6 +7,7 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import classification_report, confusion_matrix
+from sklearn import tree
 
 # Estilo para gráficos
 sns.set(style="whitegrid")
@@ -217,6 +218,26 @@ plt.title("Importancia de Variables en el Modelo de Árbol de Decisión")
 plt.xlabel("Importancia")
 plt.ylabel("Variables")
 plt.tight_layout()
+plt.show()
+
+# ============================================================
+# 7. VISUALIZACIÓN DEL ÁRBOL DE DECISIÓN (OPCIÓN 1)
+# ============================================================
+
+print("\n" + "=" * 60)
+print("VISUALIZACIÓN DEL ÁRBOL DE DECISIÓN")
+print("=" * 60)
+
+plt.figure(figsize=(20, 10))
+tree.plot_tree(
+    modelo,
+    feature_names=X.columns,
+    class_names=['No Recompra', 'Sí Recompra'],
+    filled=True,
+    rounded=True,
+    fontsize=10
+)
+plt.title("Árbol de Decisión - Modelo de Recompra")
 plt.show()
 
 print("=" * 60)
