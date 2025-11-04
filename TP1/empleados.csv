@@ -1,0 +1,16 @@
+id,nombre,apellido,email,telefono,cargo,salario,fecha_contratacion,departamento,activo
+1,Diego,Torres,empleado1@negocio.com,+54-11-5853-8244,Vendedor,66523,2021-11-01,Almacén,Sí
+2,Juan,Ramírez,empleado2@negocio.com,+54-11-5876-7355,Asistente,119788,2022-04-25,Almacén,Sí
+3,María,González,empleado3@negocio.com,+54-11-5392-8764,Supervisor,91161,2023-11-08,Ventas,No
+4,Catalina,Castro,empleado4@negocio.com,+54-11-5515-3250,Vendedor,133222,2020-05-02,Gerencia,Sí
+5,Diego,Rodríguez,empleado5@negocio.com,+54-11-5102-4544,Supervisor,170667,2021-04-30,Administración,No
+6,Camila,Castro,empleado6@negocio.com,+54-11-5461-8446,Gerente,126647,2023-04-02,Administración,Sí
+7,Carlos,Castro,empleado7@negocio.com,+54-11-5104-6247,Cajero,193907,2024-03-16,Gerencia,No
+8,Valentina,Pérez,empleado8@negocio.com,+54-11-5128-9025,Almacenero,84107,2020-02-02,Ventas,Sí
+9,Valentina,Vargas,empleado9@negocio.com,+54-11-5654-4840,Almacenero,54518,2020-01-08,Ventas,Sí
+10,Martín,Vargas,empleado10@negocio.com,+54-11-5579-6722,Vendedor,111411,2021-03-18,Almacén,Sí
+11,Agustín,Sánchez,empleado11@negocio.com,+54-11-5781-8678,Cajero,56531,2022-02-15,Ventas,Sí
+12,Agustín,Torres,empleado12@negocio.com,+54-11-5747-5967,Supervisor,96977,2021-08-19,Ventas,Sí
+13,Diego,Fernández,empleado13@negocio.com,+54-11-5089-2319,Almacenero,117934,2023-02-20,Gerencia,Sí
+14,Juan,Flores,empleado14@negocio.com,+54-11-5848-1280,Asistente,182672,2020-02-10,Gerencia,Sí
+15,Sofía,Martínez,empleado15@negocio.com,+54-11-5392-5291,Asistente,84778,2021-05-21,Gerencia,Sí

@@ -1,0 +1,51 @@
+id,nombre,apellido,email,telefono,direccion,ciudad,codigo_postal,fecha_registro,puntos_fidelidad
+1,Laura,Romero,cliente1@email.com,+54-11-4140-4305,Calle 2830,Rosario,7004,2023-11-22,364
+2,Luis,Fernández,cliente2@email.com,+54-11-4444-3574,Calle 3859,Paraná,8088,2024-04-01,58
+3,Sofía,Martínez,cliente3@email.com,+54-11-4889-5324,Calle 5828,Córdoba,9662,2024-03-13,17
+4,Valentina,González,cliente4@email.com,+54-11-4381-8692,Calle 9381,Mar del Plata,8424,2023-10-08,226
+5,Florencia,Díaz,cliente5@email.com,+54-11-4521-5053,Calle 3032,La Plata,1145,2023-03-22,219
+6,Diego,Romero,cliente6@email.com,+54-11-4781-4526,Calle 3192,Mar del Plata,3482,2024-01-11,81
+7,Carlos,Vargas,cliente7@email.com,+54-11-4153-1994,Calle 8453,Santa Fe,9391,2024-01-18,407
+8,Carlos,Vargas,cliente8@email.com,+54-11-4530-4523,Calle 6981,Córdoba,9445,2023-03-22,130
+9,Laura,Fernández,cliente9@email.com,+54-11-4237-4988,Calle 940,Mendoza,1158,2024-06-17,288
+10,María,Flores,cliente10@email.com,+54-11-4520-4746,Calle 7933,Rosario,9701,2024-07-11,209
+11,Laura,Ramírez,cliente11@email.com,+54-11-4273-8366,Calle 2603,Salta,1577,2024-05-24,1
+12,Agustín,Castro,cliente12@email.com,+54-11-4035-3613,Calle 1444,Mar del Plata,5849,2023-03-17,426
+13,Camila,Sánchez,cliente13@email.com,+54-11-4899-3218,Calle 3365,Salta,8074,2023-01-03,216
+14,Catalina,Martínez,cliente14@email.com,+54-11-4935-5329,Calle 1902,Buenos Aires,5402,2024-09-21,106
+15,Valentina,Pérez,cliente15@email.com,+54-11-4549-8323,Calle 3975,Posadas,8544,2024-05-02,214
+16,Agustín,González,cliente16@email.com,+54-11-4097-3426,Calle 1572,Córdoba,8107,2024-05-09,9
+17,Sofía,González,cliente17@email.com,+54-11-4938-1228,Calle 6661,La Plata,8064,2024-06-16,244
+18,Diego,Castro,cliente18@email.com,+54-11-4814-9142,Calle 4996,La Plata,2115,2023-01-14,424
+19,Pablo,Díaz,cliente19@email.com,+54-11-4917-6937,Calle 5904,La Plata,4037,2023-07-05,153
+20,Agustín,Morales,cliente20@email.com,+54-11-4607-7161,Calle 5211,Tucumán,5022,2024-09-30,99
+21,Sofía,López,cliente21@email.com,+54-11-4851-1358,Calle 4817,Mar del Plata,1238,2024-09-27,261
+22,Nicolás,Morales,cliente22@email.com,+54-11-4378-9440,Calle 5509,Mendoza,1573,2024-02-25,156
+23,Juan,Castro,cliente23@email.com,+54-11-4609-6729,Calle 2494,Posadas,3801,2024-01-12,261
+24,María,Rodríguez,cliente24@email.com,+54-11-4427-4836,Calle 3771,Rosario,4600,2023-04-17,128
+25,Agustín,Fernández,cliente25@email.com,+54-11-4803-4879,Calle 7490,Rosario,5680,2024-04-15,351
+26,Valentina,López,cliente26@email.com,+54-11-4134-8301,Calle 1370,Córdoba,4385,2024-08-04,189
+27,Agustín,Pérez,cliente27@email.com,+54-11-4243-9796,Calle 5867,Mendoza,3041,2024-05-19,229
+28,Florencia,Díaz,cliente28@email.com,+54-11-4393-9377,Calle 514,La Plata,7764,2024-02-26,261
+29,Laura,Pérez,cliente29@email.com,+54-11-4970-1507,Calle 2109,Mar del Plata,1097,2024-05-22,474
+30,Carlos,Torres,cliente30@email.com,+54-11-4860-5773,Calle 4402,Tucumán,6192,2024-09-09,265
+31,Carlos,Vargas,cliente31@email.com,+54-11-4274-4093,Calle 4577,Córdoba,5969,2024-06-02,483
+32,Laura,Romero,cliente32@email.com,+54-11-4822-1277,Calle 6898,Paraná,6804,2024-09-19,161
+33,Laura,Pérez,cliente33@email.com,+54-11-4588-4140,Calle 3926,Salta,3479,2023-07-26,317
+34,Valentina,Martínez,cliente34@email.com,+54-11-4035-6479,Calle 8417,Buenos Aires,1486,2023-09-26,223
+35,Martín,Rodríguez,cliente35@email.com,+54-11-4838-1413,Calle 1286,Mendoza,5715,2023-01-10,306
+36,Nicolás,Castro,cliente36@email.com,+54-11-4334-4365,Calle 8958,Neuquén,7092,2023-12-08,359
+37,Agustín,Torres,cliente37@email.com,+54-11-4666-1301,Calle 1786,Salta,6670,2024-08-16,204
+38,Laura,Castro,cliente38@email.com,+54-11-4677-1068,Calle 2937,Posadas,8061,2023-09-18,328
+39,Lucía,Díaz,cliente39@email.com,+54-11-4206-5843,Calle 3978,Rosario,8352,2023-06-30,211
+40,Florencia,López,cliente40@email.com,+54-11-4181-3699,Calle 3351,Córdoba,5950,2023-11-28,457
+41,Carlos,González,cliente41@email.com,+54-11-4569-5510,Calle 1711,Neuquén,7072,2023-04-28,307
+42,Ana,Castro,cliente42@email.com,+54-11-4625-6209,Calle 3741,Posadas,3813,2023-01-29,2
+43,Valentina,Castro,cliente43@email.com,+54-11-4218-9273,Calle 5935,Neuquén,7991,2023-11-04,127
+44,Sofía,Fernández,cliente44@email.com,+54-11-4931-5802,Calle 4246,La Plata,4705,2023-08-03,194
+45,Florencia,López,cliente45@email.com,+54-11-4145-2738,Calle 4595,Salta,5555,2023-11-13,37
+46,Camila,González,cliente46@email.com,+54-11-4226-6743,Calle 9679,Buenos Aires,4591,2023-07-14,366
+47,Catalina,Sánchez,cliente47@email.com,+54-11-4168-6942,Calle 6921,Córdoba,2230,2023-12-31,427
+48,Sofía,González,cliente48@email.com,+54-11-4130-2708,Calle 6466,La Plata,8892,2023-02-15,118
+49,Juan,Vargas,cliente49@email.com,+54-11-4755-7660,Calle 9056,Santa Fe,3225,2024-01-31,288
+50,Martín,Martínez,cliente50@email.com,+54-11-4105-9555,Calle 9489,Neuquén,7068,2023-03-12,283

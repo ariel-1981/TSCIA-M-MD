@@ -1,0 +1,41 @@
+id,numero_orden,id_proveedor,id_empleado,fecha_orden,fecha_entrega,total,estado,forma_pago,observaciones
+1,OC-00000001,4,14,2024-10-07,2024-10-13,18503.73,Cancelada,Contado,
+2,OC-00000002,1,13,2024-05-11,2024-05-19,86203.32,Pendiente,Cheque,Entrega urgente
+3,OC-00000003,2,10,2024-08-05,2024-08-13,31923.18,Pendiente,Transferencia,
+4,OC-00000004,8,8,2024-08-16,2024-08-31,83899.83,En tránsito,Contado,Entrega urgente
+5,OC-00000005,1,13,2024-08-03,2024-08-13,84227.81,En tránsito,Transferencia,
+6,OC-00000006,8,5,2024-04-28,2024-05-01,67571.63,Recibida,Transferencia,
+7,OC-00000007,10,10,2024-10-10,2024-10-15,11188.49,En tránsito,Contado,Entrega urgente
+8,OC-00000008,8,9,2024-08-17,2024-08-30,91325.35,Recibida,Cheque,Entrega urgente
+9,OC-00000009,10,11,2024-09-28,2024-10-10,52861.55,En tránsito,Cheque,Entrega urgente
+10,OC-00000010,10,15,2024-02-27,2024-03-01,89875.55,Cancelada,Transferencia,
+11,OC-00000011,3,11,2024-08-07,2024-08-19,88273.72,Recibida,Contado,Pedido parcial
+12,OC-00000012,7,14,2024-10-03,2024-10-06,21683.96,Pendiente,Transferencia,Pedido parcial
+13,OC-00000013,10,6,2024-02-03,2024-02-16,80828.57,Pendiente,Contado,
+14,OC-00000014,10,5,2024-02-13,2024-02-23,44449.21,Cancelada,Transferencia,Entrega urgente
+15,OC-00000015,3,13,2024-01-27,2024-02-03,96735.38,Pendiente,Transferencia,
+16,OC-00000016,10,7,2024-03-29,2024-04-10,59216.93,Pendiente,Cheque,Pedido parcial
+17,OC-00000017,7,13,2024-02-03,2024-02-12,56423.77,Pendiente,Contado,Pedido parcial
+18,OC-00000018,1,6,2024-03-25,2024-04-02,50481.68,Recibida,Transferencia,
+19,OC-00000019,7,9,2024-06-28,2024-07-10,31989.94,Cancelada,Transferencia,
+20,OC-00000020,2,13,2024-08-25,2024-09-06,22726.32,Recibida,Cheque,
+21,OC-00000021,1,15,2024-06-03,2024-06-12,65494.86,Pendiente,Cheque,
+22,OC-00000022,7,2,2024-02-23,2024-03-04,14047.45,Pendiente,Contado,Entrega urgente
+23,OC-00000023,4,10,2024-02-16,2024-03-01,81062.38,Recibida,Transferencia,Entrega urgente
+24,OC-00000024,5,14,2024-06-25,2024-07-02,9167.85,En tránsito,Cheque,Entrega urgente
+25,OC-00000025,1,9,2024-07-02,2024-07-12,81778.49,Cancelada,Transferencia,
+26,OC-00000026,7,13,2024-04-25,2024-05-01,32561.97,Cancelada,Contado,Entrega urgente
+27,OC-00000027,9,14,2024-07-19,2024-07-25,47042.91,Recibida,Transferencia,Pedido parcial
+28,OC-00000028,6,3,2024-03-16,2024-03-30,23792.77,Cancelada,Contado,Entrega urgente
+29,OC-00000029,7,15,2024-07-27,2024-07-30,12820.87,Cancelada,Cheque,
+30,OC-00000030,10,2,2024-04-22,2024-04-27,90293.08,Pendiente,Contado,
+31,OC-00000031,1,5,2024-07-24,2024-08-04,77516.78,Pendiente,Contado,Pedido parcial
+32,OC-00000032,10,6,2024-07-19,2024-07-23,59458.2,En tránsito,Transferencia,Entrega urgente
+33,OC-00000033,3,4,2024-08-01,2024-08-16,82672.2,En tránsito,Transferencia,
+34,OC-00000034,1,1,2024-07-10,2024-07-16,69281.76,Pendiente,Cheque,Pedido parcial
+35,OC-00000035,2,6,2024-03-03,2024-03-11,42424.17,En tránsito,Contado,Entrega urgente
+36,OC-00000036,5,7,2024-05-17,2024-05-30,82317.31,Cancelada,Contado,
+37,OC-00000037,9,10,2024-03-28,2024-04-06,25893.19,En tránsito,Transferencia,Pedido parcial
+38,OC-00000038,3,15,2024-07-27,2024-08-11,18850.07,Cancelada,Contado,
+39,OC-00000039,8,11,2024-05-14,2024-05-18,23649.67,Recibida,Cheque,
+40,OC-00000040,8,1,2024-08-16,2024-08-21,28924.44,Recibida,Contado,

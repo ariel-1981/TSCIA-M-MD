@@ -1,0 +1,12 @@
+id,nombre_empresa,contacto,email,telefono,direccion,ciudad,cuit,condicion_pago,calificacion
+1,TechSupply SA,Martín Torres,contacto@proveedor1.com,+54-11-6179-8772,Av. Industrial 7475,Rosario,20-49728478-7,90 días,4
+2,DistribuidoraMax,Pablo Morales,contacto@proveedor2.com,+54-11-6646-1510,Av. Industrial 1079,Tucumán,20-36924191-3,Contado,4
+3,ImportExport SRL,Luis Flores,contacto@proveedor3.com,+54-11-6074-4471,Av. Industrial 1602,Neuquén,20-27841943-1,60 días,4
+4,MegaStock,Juan Morales,contacto@proveedor4.com,+54-11-6914-1366,Av. Industrial 9866,Rosario,20-84901407-1,60 días,3
+5,ProveeDirect,Valentina López,contacto@proveedor5.com,+54-11-6306-6088,Av. Industrial 5689,Paraná,20-60373687-0,60 días,3
+6,LogisticaPro,Pablo González,contacto@proveedor6.com,+54-11-6590-9450,Av. Industrial 764,Mar del Plata,20-95082591-5,30 días,5
+7,ComercialSur,Carlos Fernández,contacto@proveedor7.com,+54-11-6430-3330,Av. Industrial 8900,Buenos Aires,20-78981605-1,30 días,3
+8,GlobalTrade,Martín Morales,contacto@proveedor8.com,+54-11-6639-5867,Av. Industrial 5609,Buenos Aires,20-44126591-0,90 días,4
+9,SuministrosPlus,Laura Castro,contacto@proveedor9.com,+54-11-6083-9334,Av. Industrial 2209,Salta,20-18959995-2,90 días,3
+10,AlmacénCentral,Martín Fernández,contacto@proveedor10.com,+54-11-6096-1800,Av. Industrial 4964,Santa Fe,20-69582584-5,30 días,4
+11,almacenficticio,1132324232,mailficticio@gmail.com,113141413,guemes 2020,avellaneda,2011119230,30 dias,6
